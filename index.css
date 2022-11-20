@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background: radial-gradient(rgb(255, 255, 255), rgb(219, 150, 219));
+}
+
+.container{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+}
+
+button{
+    height: 35px;
+    width: 255px;
+    margin-bottom: 40px;
+    font-size: 27px;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: lightgreen;
+}
+
+hr{
+    width: 340px;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-size: 35px;
+    /*text-decoration: underline;*/
+}
+
+p{
+    font-size: 25px;
+}
+
+
